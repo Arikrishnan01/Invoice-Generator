@@ -1,0 +1,26 @@
+/* styles.css */
+
+.form-container {
+    overflow-y: auto;
+  }
+  
+  /* For WebKit browsers (Chrome, Safari) */
+  .form-container::-webkit-scrollbar {
+    width: 4px; /* Width of the scrollbar */
+  }
+  
+  .form-container::-webkit-scrollbar-thumb {
+    background-color: #4a4a4a; /* Dark gray color for the scrollbar thumb */
+    border-radius: 4px; /* Optional: rounded corners for the scrollbar thumb */
+  }
+  
+  .form-container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light background for the track */
+  }
+  
+  /* For Firefox */
+  .form-container {
+    scrollbar-width: thin; /* Scrollbar width */
+    scrollbar-color: #4a4a4a #f1f1f1; /* Thumb color and track color */
+  }
+  
